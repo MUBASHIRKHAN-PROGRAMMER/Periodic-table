@@ -48,15 +48,12 @@ font-size: 12px;
 fieldset{
     display: inline-block;
     border: 7px solid black;
-    width: 100px;
     border-radius: 20px;
    margin-top: 10%;
-   margin-left: 215px;
+   margin-left: 130px;
 }
 table{
-    
-    border-collapse: collapse;
-
+    padding: 9px 7px;
 }
 body{
     background-color:lightcyan;
@@ -75,24 +72,51 @@ body{
 .tab:hover{
     background-color: lightseagreen;
     color:white;
+    transition-property: all;
     transition-timing-function: ease-out;
-    transition-delay: 0.3s;
+    transition-delay: 0.2s;
     font-style: italic;
 }
-.name{
+.ok{
     border: 4px solid purple;
     font-size: 30px;
-    margin-top: 200px;
+    margin-top: 150px;
     font-style: italic;
   width: 380px;
 }
-.name:hover{
+.ok:hover{
     cursor: not-allowed;
     border: 3px solid black;
     background-color:gainsboro;
     color: brown;
+    transition-property: all;
     transition-timing-function: ease-in-out;
-    transition-delay:0.3s;}
+    transition-delay:0.2s;
+}
 td,tr{
     border:1px solid black
+}
+.brown{
+   margin-left: 350px;
+   margin-top:30px;
+   padding: 10px 10px;
+   width: 1000px;
+}
+.brown:hover{
+    border: 3px solid black;
+    background-color: white;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-delay: 0.2s;
+    border-radius: 10px;
+}
+.blank{
+    font-weight:bold;
+    background-color:pink;
+}
+.div{
+    font-size: 11px;
+}
+.div:hover{
+    color:green;
 }
